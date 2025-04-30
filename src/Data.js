@@ -44,7 +44,7 @@ import { RiListCheck3 } from "react-icons/ri";
 export const aboutData = [
   {
     key: 1,
-    logo: <RiListCheck3 className="w-[70px] h-[70px]" />,
+    logo: RiListCheck3,
     heading: "200 Hand-Picked Questions",
     disc: "Coding interview prep is a numbers game that many candidates lose. We've hand-picked 200  of the best coding interview questions to prepare you for every interview you could encounter.",
     link: {
@@ -53,7 +53,7 @@ export const aboutData = [
   },
   {
     key: 2,
-    logo: <GiVideoCamera className="w-[70px] h-[70px]" />,
+    logo: GiVideoCamera,
     heading: "100+ Hours Of Video Explanations",
     disc: "Algorithms are tough to learn on paper. Each of our questions is accompanied by a two-part video explanation to maximize learning. That's over 100 hours of content, all at your fingertips.",
     link: {
@@ -62,7 +62,7 @@ export const aboutData = [
   },
   {
     key: 3,
-    logo: <SiMoleculer className="w-[70px] h-[70px]" />,
+    logo: SiMoleculer,
     heading: "Data Structures Crash Course",
     disc: "Data structures are the pillars of coding interviews. Our video series gives you the foundational knowledge you need to be well-versed in all of the popular data structures.",
     link: {
@@ -71,7 +71,7 @@ export const aboutData = [
   },
   {
     key: 4,
-    logo: <FaListCheck className="w-[70px] h-[70px]" />,
+    logo: FaListCheck,
     heading: "Solutions In 9 Languages",
     disc: "Not everyone speaks the same programming language. All of our solutions come in 9 different languages:JavaScript, TypeScript, Python, Swift, Kotlin, C++, Java, C#, and Go.",
     link: {
@@ -80,7 +80,7 @@ export const aboutData = [
   },
   {
     key: 5,
-    logo: <GiLaptop className="w-[70px] h-[70px]" />,
+    logo: GiLaptop,
     heading: "Feature-Rich Coding Workspace",
     disc: "Coding out solutions to algorithm problems is the best way to practice. Our coding workspace lets you type out your answers and run them against our test cases, right here on the website.",
     link: {
@@ -89,7 +89,7 @@ export const aboutData = [
   },
   {
     key: 6,
-    logo: <FaReact className="w-[70px] h-[70px]" />,
+    logo: FaReact,
     heading: "Space-Time Complexity Analyses",
     disc: "Understanding how much memory an algorithm uses and how fast it runs is crucial to passing coding interviews. All of our explanations include a rigorous space-time complexity analysis.",
     link: {
@@ -98,7 +98,7 @@ export const aboutData = [
   },
   {
     key: 7,
-    logo: <GiNotebook className="w-[70px] h-[70px]" />,
+    logo: GiNotebook,
     heading: "4 Curated Assessments",
     disc: "Real coding interviews are timed and have multiple questions. We've curated 4  assessments to reflect a real day of coding interviews, filled with variety and appropriate difficulty.",
     link: {
@@ -107,7 +107,7 @@ export const aboutData = [
   },
   {
     key: 8,
-    logo: <BsPcDisplay className="w-[70px] h-[70px]" />,
+    logo: BsPcDisplay,
     heading: "Mock Coding Interviews",
     disc: "Nothing compares to doing a real coding interview with a real human being. We let you do mock coding interviews with other users on a shared workspace, right here on AlgoExpert.",
     link: {
@@ -116,7 +116,7 @@ export const aboutData = [
   },
   {
     key: 9,
-    logo: <PiCertificateLight className="w-[70px] h-[70px]" />,
+    logo: PiCertificateLight,
     heading: "Recruiting Profile & Certificate",
     disc: "Landing technical interviews can be harder than passing them. Once you earn the AlgoExpert Certificate, we refer you to tech companies so you can directly start their interview process.",
     link: {
@@ -253,77 +253,77 @@ export const reviewData = [
 export const questionData = [
   {
     index: 1,
-    icon: <IoCheckmarkCircleSharp />,
+    icon: IoCheckmarkCircleSharp,
     text: "Arrays",
   },
   {
     index: 2,
-    icon: <IoCheckmarkCircleSharp />,
+    icon: IoCheckmarkCircleSharp,
     text: "Graphs",
   },
   {
     index: 3,
-    icon: <IoCheckmarkCircleSharp />,
+    icon: IoCheckmarkCircleSharp,
     text: "Ties",
   },
   {
     index: 4,
-    icon: <IoCheckmarkCircleSharp />,
+    icon: IoCheckmarkCircleSharp,
     text: "Linked Lists",
   },
   {
     index: 5,
-    icon: <IoCheckmarkCircleSharp />,
+    icon: IoCheckmarkCircleSharp,
     text: "Binary Trees",
   },
   {
     index: 6,
-    icon: <IoCheckmarkCircleSharp />,
+    icon: IoCheckmarkCircleSharp,
     text: "Strings",
   },
   {
     index: 7,
-    icon: <IoCheckmarkCircleSharp />,
+    icon: IoCheckmarkCircleSharp,
     text: "Dynamic Programming",
   },
   {
     index: 8,
-    icon: <IoCheckmarkCircleSharp />,
+    icon: IoCheckmarkCircleSharp,
     text: "Searching",
   },
   {
     index: 9,
-    icon: <IoCheckmarkCircleSharp />,
+    icon: IoCheckmarkCircleSharp,
     text: "Sorting",
   },
   {
     index: 10,
-    icon: <IoCheckmarkCircleSharp />,
+    icon: IoCheckmarkCircleSharp,
     text: "Greedy Algorithms",
   },
   {
     index: 11,
-    icon: <IoCheckmarkCircleSharp />,
+    icon: IoCheckmarkCircleSharp,
     text: "Recursion",
   },
   {
     index: 12,
-    icon: <IoCheckmarkCircleSharp />,
+    icon: IoCheckmarkCircleSharp,
     text: "Famous Algorithms",
   },
   {
     index: 13,
-    icon: <IoCheckmarkCircleSharp />,
+    icon: IoCheckmarkCircleSharp,
     text: "Heaps",
   },
   {
     index: 14,
-    icon: <IoCheckmarkCircleSharp />,
+    icon: IoCheckmarkCircleSharp,
     text: "Binary Search  Trees",
   },
   {
     index: 15,
-    icon: <IoCheckmarkCircleSharp />,
+    icon: IoCheckmarkCircleSharp,
     text: "Stacks",
   },
 ];
@@ -333,7 +333,7 @@ export const questionData = [
 export const productData = [
   {
     key: 1,
-    logo: <RiListCheck3 className="w-[70px] h-[70px]" />,
+    logo: RiListCheck3,
     heading: "Frontend Interview Questions",
     disc: "Frontend interviews require a lot of experience building complex frontend features. We've carefully selected 50 frontend coding questions to provide you with all the practice you need.",
     link: {
@@ -342,7 +342,7 @@ export const productData = [
   },
   {
     key: 2,
-    logo: <ImHtmlFive2 className="w-[70px] h-[70px]" />,
+    logo: ImHtmlFive2,
     heading: "HTML Crash Course",
     disc: "The bedrock of frontend development, HTML is deceptively simple. Our HTML crash course equips you with all the knowledge you need to genuinely understand HTML.",
     link: {
@@ -351,7 +351,7 @@ export const productData = [
   },
   {
     key: 3,
-    logo: <PiBracketsCurlyLight className="w-[70px] h-[70px]" />,
+    logo: PiBracketsCurlyLight,
     heading: "CSS Crash Course",
     disc: "Love it or hate it, frontend development without CSS is hardly frontend development. Our CSS crash course teaches you the ins and outs of CSS to tackle any CSS challenge.",
     link: {
@@ -360,7 +360,7 @@ export const productData = [
   },
   {
     key: 4,
-    logo: <TbBrandJavascript className="w-[70px] h-[70px]" />,
+    logo: TbBrandJavascript,
     heading: "JavaScript Crash Course",
     disc: "Perhaps the quirkiest of programming languages, JavaScript lies at the heart of frontend engineering. Our JavaScript crash course covers every aspect of the language you need to know.",
     link: {
@@ -369,7 +369,7 @@ export const productData = [
   },
   {
     key: 5,
-    logo: <IoLogoReact className="w-[70px] h-[70px]" />,
+    logo: IoLogoReact,
     heading: "React Crash Course",
     disc: "With frontend engineering come frameworks, and with frameworks comes React. Our React crash course gives you the practical knowledge you need to be a true frontend expert.",
     link: {
@@ -378,7 +378,7 @@ export const productData = [
   },
   {
     key: 6,
-    logo: <MdOutlineFactCheck className="w-[70px] h-[70px]" />,
+    logo: MdOutlineFactCheck,
     heading: "Web Dev Fundamentals",
     disc: "As if mastering HTML, CSS, and JavaScript weren't enough, understanding web systems is a must for frontend interviews. Our web dev fundamentals crash course lets you do just that.",
     link: {
@@ -387,7 +387,7 @@ export const productData = [
   },
   {
     key: 7,
-    logo: <GiNotebook className="w-[70px] h-[70px]" />,
+    logo: GiNotebook,
     heading: "Frontend Quiz",
     disc: "Frontend interviews require a breadth of knowledge about frontend development. We've carefully curated a 50 -question quiz to test your understanding of popular frontend concepts.",
     link: {
@@ -396,7 +396,7 @@ export const productData = [
   },
   {
     key: 8,
-    logo: <PiCertificateLight className="w-[70px] h-[70px]" />,
+    logo: PiCertificateLight,
     heading: "Recruiting Profile & Certificate",
     disc: "Landing technical interviews can be harder than passing them. Once you earn the FrontendExpert Certificate, we refer you to tech companies so you can directly start their interview process.",
     link: {

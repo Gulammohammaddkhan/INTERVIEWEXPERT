@@ -1,6 +1,6 @@
 import React from "react";
 import CustomButton from "./CustomButton";
-import { aboutData } from "./Data";
+import { aboutData } from "../Data";
 import { Link } from "react-router-dom";
 import Card from "./Card";
 

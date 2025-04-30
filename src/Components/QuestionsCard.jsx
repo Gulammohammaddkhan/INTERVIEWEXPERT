@@ -1,5 +1,5 @@
 import React from "react";
-import { questionData } from "./Data";
+import { questionData } from "../Data";
 import { IoCheckmarkCircleSharp } from "react-icons/io5";
 
 function QuestionsCard({ data }) {

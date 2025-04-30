@@ -1,6 +1,6 @@
 import React from "react";
 import CustomButton from "./CustomButton";
-import { questionData } from "./Data";
+import { questionData } from "../Data";
 import QuestionsCard from "./QuestionsCard";
 
 // function Questions() {

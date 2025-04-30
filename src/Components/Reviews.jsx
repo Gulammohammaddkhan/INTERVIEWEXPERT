@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card";
-import { reviewData } from "./Data";
+import { reviewData } from "../Data";
 import ReviewCard from "./ReviewCard";
 import CustomButton from "./CustomButton";
 
