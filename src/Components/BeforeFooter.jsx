@@ -57,7 +57,7 @@ import { MdOutlineDeleteForever } from "react-icons/md";
 
 function BeforeFooter() {
   return (
-    <div className="bg-[#02213d] text-white flex flex-col md:flex-row py-20 gap-10 justify-between">
+    <div className="bg-[#02213d] text-white flex flex-col md:flex-row py-20 gap-10 justify-between pl-5">
       {/* Text Section */}
       <div className="md:w-1/2">
         <h2 className="text-3xl font-semibold pb-5">

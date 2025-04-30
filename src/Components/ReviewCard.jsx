@@ -2,7 +2,7 @@ import React from "react";
 
 function ReviewCard({ data }) {
   return (
-    <div className="grid grid-cols-3 mx-20 gap-5 mt-14 mb-12">
+    <div className=" ">
       <div className=" flex flex-col justify-center items-center w-[325px] h-[325px] bg-white relative rounded-sm border-t-4 border-t-[#626fe3]">
         <img
           src={data.avatar}
@@ -17,7 +17,7 @@ function ReviewCard({ data }) {
           </p>
         </div>
       </div>
-       </div>
+    </div>
   );
 }
 

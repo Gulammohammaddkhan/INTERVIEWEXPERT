@@ -404,3 +404,24 @@ export const productData = [
     },
   },
 ];
+
+export const frontendData = [
+  [
+    "JavaScript Program To Print Hello World",
+    "JavaScript Program to Add Two Numbers",
+    "JavaScript Program to Find the Square Root",
+    "Javascript Program to Generate a Random Number",
+  ],
+  [
+    "JavaScript Program to Swap Two Variables",
+    "Javascript Program to Check if a number is Positive, Negative, or Zero",
+    "Javascript Program to Check if a Number is Odd or Even",
+    "JavaScript Program to Find the Largest Among Three Numbers",
+  ],
+  [
+    "JavaScript Program to Check Prime Number",
+    "JavaScript Program to Print All Prime Numbers in an Interval",
+    "JavaScript Program to Display the Multiplication Table",
+    "JavaScript Program to Find the Sum of Natural Numbers",
+  ],
+];

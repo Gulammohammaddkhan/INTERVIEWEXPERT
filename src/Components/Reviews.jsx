@@ -60,10 +60,12 @@ function Reviews() {
       <h2 className="text-3xl md:text-4xl pb-8 md:pb-12 text-center">
         And Over 200,000 Satisfied Engineers.
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10">
-        {reviewData.map((object, index) => {
-          return <ReviewCard data={object} key={index} />;
-        })}
+      <div className="grid  grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-6 md:gap-10">
+        {reviewData.map((object, index) => (
+          <div>
+            <ReviewCard data={object} key={index} />
+          </div>
+        ))}
       </div>
       <CustomButton
         text={"Read More Testimonials"}
