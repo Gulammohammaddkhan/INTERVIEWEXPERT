@@ -1,4 +1,3 @@
-import { RiListCheck3 } from "react-icons/ri";
 import { GiVideoCamera } from "react-icons/gi";
 import { SiMoleculer } from "react-icons/si";
 import { FaListCheck } from "react-icons/fa6";
@@ -40,6 +39,7 @@ import { ImHtmlFive2 } from "react-icons/im";
 import { TbBrandJavascript } from "react-icons/tb";
 import { IoLogoReact } from "react-icons/io5";
 import { MdOutlineFactCheck } from "react-icons/md";
+import { RiListCheck3 } from "react-icons/ri";
 
 export const aboutData = [
   {

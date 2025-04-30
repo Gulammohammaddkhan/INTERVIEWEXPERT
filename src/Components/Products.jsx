@@ -5,7 +5,7 @@ import Hero from "./Hero";
 import Card from "./Card";
 import Footer from "./Footer";
 import BeforeFooter from "./BeforeFooter";
-import { productData } from "./Data";
+import { productData } from "../Data";
 import FrontendQuestions from "./FrontendQuestions";
 
 function Products() {
