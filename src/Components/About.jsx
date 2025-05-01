@@ -50,7 +50,7 @@ import Card from "./Card";
 
 function About() {
   return (
-    <div className="mb-20 px-4 md:px-10">
+    <div className="mb-20 px-4 md:px-10  bg-[#f7fafc]">
       {/* Top Section */}
       <div className="mt-20 md:mt-40 text-center">
         <h2 className="font-normal text-3xl sm:text-4xl pb-6">

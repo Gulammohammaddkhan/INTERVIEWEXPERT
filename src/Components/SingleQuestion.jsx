@@ -15,10 +15,10 @@ const SingleQuestion = () => {
         {frontendObj?.map((obj, id) => (
           <div key={id} className="w-1/2 py-3">
             <div>
-              <h1 className="text-4xl font-bold py-5 flex justify-center">
+              <h1 className="text-4xl font-bold py-5 flex justify-center text-[#e32074]">
                 {obj?.title}
               </h1>
-              <p className="text-2xl py-5 px-3 flex justify-center items-center self-center">
+              <p className="text-2xl text-[#637c87] py-5 px-3 flex justify-center items-center self-center">
                 {obj?.desc}
               </p>
             </div>

@@ -419,58 +419,91 @@ export const frontendData = [
     title: "JavaScript Program to Add Two Numbers",
     slug: "Add-Two-Numbers",
     Sourcecode:
-      "Source Code : const num1 = 5;const num2 = 3;// add two numbers const sum = num1 + num2; // display the sum console.log('The sum of ' + num1 + ' and ' + num2 + ' is: ' + sum);",
+      "Source Code : const num1 = 5;const num2 = 3; add two numbers const sum = num1 + num2;console.log('The sum of ' + num1 + ' and ' + num2 + ' is: ' + sum);",
     output: "The sum of 5 and 3 is: 8",
   },
   {
     id: 3,
     title: "JavaScript Program to Find the Square Root",
     slug: "Find-the-Square-Root",
+    Sourcecode:
+      "const number = prompt('Enter the number: '); const result = Math.sqrt(number); console.log(`The square root of ${number} is ${result}`);",
+    output: "Enter the number: 9 ;The square root of 9 is 3",
   },
   {
     id: 4,
     title: "JavaScript Program to Generate a Random Number",
     slug: "Generate-a-Random-Number",
+    Sourcecode: "const a = Math.random(); console.log(a);",
+    output: "0.5856407221615856",
   },
   {
     id: 5,
     title: "JavaScript Program to Swap Two Variables",
     slug: "Swap-Two-Variables",
+    Sourcecode:
+      "let a = prompt('Enter the first variable: '); let b = prompt('Enter the second variable: '); //create a temporary variable// ; let temp; //swap variables// ; temp = a; a = b; b = temp; console.log(`The value of a after swapping: ${a}`); console.log(`The value of b after swapping: ${b}`);",
+    output:
+      "Enter the first variable: 4; Enter the second variable: 2; The value of a after swapping: 2; The value of b after swapping: 4",
   },
   {
     id: 6,
     title:
       "JavaScript Program to Check if a number is Positive, Negative, or Zero",
     slug: "Number-is-Positive-Negative-Zero",
+    Sourcecode:
+      "const number= parseInt(prompt('enter your number');if(number>0){console.log('the number is positive')}else if (number==0){console.log('the number is Zero')} else{console.log('the number is negative')} ",
+    output: "Enter a number: 0; The number is zero.",
   },
   {
     id: 7,
     title: "JavaScript Program to Check if a Number is Odd or Even",
     slug: "Number-is-Odd-or-Even",
+    Sourcecode:
+      "const number = prompt('Enter a number: '); if(number % 2 == 0) { console.log('The number is even.');} else { console.log('The number is odd.');}",
+    output: "Enter a number: 27;The number is odd.",
   },
   {
     id: 8,
     title: "JavaScript Program to Find the Largest Among Three Numbers",
     slug: "Find-the-Largest-Among-Three-Numbers",
+    Sourcecode:
+      "const num1 = parseFloat(prompt('Enter first number:' ));const num2 = parseFloat(prompt('Enter second number: ')); const num3 = parseFloat(prompt('Enter third number:' ));let largest; if(num1 >= num2 && num1 >= num3) {largest = num1;} else if (num2 >= num1 && num2 >= num3) {largest = num2} else {largest = num3;} console.log(The largest number is  + largest);",
+    output:
+      "Enter first number: 5;Enter second number: 5.5;Enter third number: 5.6;The largest number is 5.6",
   },
   {
     id: 9,
     title: "JavaScript Program to Check Prime Number",
     slug: "Check-Prime-Number",
+    Sourcecode:
+      "const number = parseInt('prompt(Enter a positive number:' ));let isPrime = true;if (number === 1) {console.log(1 is neither prime nor composite number.);} else if (number > 1) {for (let i = 2; i <= number/2; i++) {if (number % i == 0) {isPrime = false;break;}}if (isPrime) { console.log(`${number} is a prime number`);} else {console.log(`${number} is a not prime number`);}};else {console.log(The number is not a prime number.);}",
+    output: "Enter a positive number: 23;23 is a prime number.",
   },
   {
     id: 10,
     title: "JavaScript Program to Print All Prime Numbers in an Intervals",
     slug: "Print-All-Prime-Numbers-in-an-Interval",
+    Sourcecode:
+      " const lowerNumber = parseInt(prompt('Enter lower number: '));const higherNumber = parseInt(prompt('Enter higher number: '));console.log(`The prime numbers between ${lowerNumber} and ${higherNumber} are:`);for (let i = lowerNumber; i <= higherNumber; i++) {let flag = 0;for (let j = 2; j < i; j++) {if (i % j == 0) {flag = 1;break;}}if (i > 1 && flag == 0) {console.log(i);}}",
+    output:
+      "Enter lower number: 2;Enter higher number : 10;The prime numbers between 2 and 10 are:2,3,5,7",
   },
   {
     id: 11,
     title: "JavaScript Program to Display the Multiplication Table",
     slug: "Display-the-Multiplication-Table",
+    Sourcecode:
+      "// program to generate a multiplication table;const number = parseInt(prompt('Enter an integer: '));for(let i = 1; i <= 10; i++) {const result = i * number; console.log(`${number} * ${i} = ${result}`);}",
+    output:
+      "Enter an integer: 3;3 * 1 = 3;3 * 2 = 6;3 * 3 = 9;3 * 4 = 12;3 * 5 = 15;3 * 6 = 18;3 * 7 = 21;3 * 8 = 24;3 * 9 = 27;3 * 10 = 30",
   },
   {
     id: 12,
     title: "JavaScript Program to Find the Sum of Natural Numbers",
     slug: "Find-the-Sum-of-Natural-Numbers",
+    Sourcecode:
+      "const number = parseInt(prompt('Enter a positive integer: '));let sum = 0;for (let i = 1; i <= number; i++) {sum += i;}console.log('The sum of natural numbers:', sum);",
+    output: "Enter a positive integer: 100;The sum of natural numbers: 5050",
   },
 ];
