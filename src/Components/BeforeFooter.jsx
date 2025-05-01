@@ -1,7 +1,8 @@
 import React from "react";
-import dot from "../assets/Images/Dots.avif";
+// import dot from "../assets/Images/Dots.avif";
 import CustomButton from "./CustomButton";
 import { MdOutlineDeleteForever } from "react-icons/md";
+import illusion from "../assets/Images/Illusion.avif";
 
 // function BeforeFooter() {
 //   return (
@@ -91,13 +92,13 @@ function BeforeFooter() {
       <div className="relative md:w-1/2">
         <div className="flex justify-end">
           <img
-            src={dot}
+            src={illusion}
             className="w-full md:h-[300px] h-[250px] mt-10 rounded-l-full"
             alt="Dot image"
           />
         </div>
         <div>
-          <button className="bg-[#626fe3] rounded-md shadow-2xl shadow-black-900 absolute top-36 left-[-30px] md:left-[-60px]">
+          <button className="bg-[#626fe3] rounded-md shadow-2xl shadow-black-900 absolute top-36 left-[-30px] md:left-[-35px]">
             <MdOutlineDeleteForever className="w-[75px] h-[75px]" />
           </button>
         </div>

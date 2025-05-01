@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import { FaReact } from "react-icons/fa6";
 
 // const Header = (bgColor) => {
 //   const [showInfo, setShowInfo] = useState(false);
@@ -87,7 +88,11 @@ const Header = ({ bgColor = "#00182e" }) => {
     <div className={`relative text-white`} style={{ backgroundColor: bgColor }}>
       {/* Top bar */}
       <div className="flex justify-between items-center px-6 py-5 md:px-10">
-        <Link to="/" className="text-lg font-bold">
+        <Link
+          to="/"
+          className="text-lg font-bold flex justify-center items-center gap-2"
+        >
+          <FaReact />
           INTERVIEW EXPERT
         </Link>
 

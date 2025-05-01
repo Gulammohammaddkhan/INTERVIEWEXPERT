@@ -63,7 +63,7 @@ function FrontendQuestions() {
           <div className="font-semibold text-[#063b69] text-sm pl-3">
             Stop Watch
           </div>
-          <div className="px-3 py-5 bg-[#186e7b] rounded-r-sm border-r-8 border-r-[#02213d]"></div>
+          <div className="px-3 py-5 bg-[#063b69] rounded-r-sm border-r-8 border-r-[#02213d]"></div>
         </div>
       </div>
     </div>
