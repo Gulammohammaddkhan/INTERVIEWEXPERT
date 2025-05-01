@@ -406,22 +406,68 @@ export const productData = [
 ];
 
 export const frontendData = [
-  [
-    "JavaScript Program To Print Hello World",
-    "JavaScript Program to Add Two Numbers",
-    "JavaScript Program to Find the Square Root",
-    "Javascript Program to Generate a Random Number",
-  ],
-  [
-    "JavaScript Program to Swap Two Variables",
-    "Javascript Program to Check if a number is Positive, Negative, or Zero",
-    "Javascript Program to Check if a Number is Odd or Even",
-    "JavaScript Program to Find the Largest Among Three Numbers",
-  ],
-  [
-    "JavaScript Program to Check Prime Number",
-    "JavaScript Program to Print All Prime Numbers in an Interval",
-    "JavaScript Program to Display the Multiplication Table",
-    "JavaScript Program to Find the Sum of Natural Numbers",
-  ],
+  {
+    id: 1,
+    title: "JavaScript Program To Print Hello World",
+    desc: "A Hello, World! is a simple program that prints Hello, World! on the screen. Since it's a very simple program, this program is often used to introduce a new programming language to beginners.",
+    slug: "Print-Hello-World",
+    Sourcecode: "Source Code : console.log('Hello World');",
+    output: "Output : Hello, World!",
+  },
+  {
+    id: 2,
+    title: "JavaScript Program to Add Two Numbers",
+    slug: "Add-Two-Numbers",
+  },
+  {
+    id: 3,
+    title: "JavaScript Program to Find the Square Root",
+    slug: "Find-the-Square-Root",
+  },
+  {
+    id: 4,
+    title: "JavaScript Program to Generate a Random Number",
+    slug: "Generate-a-Random-Number",
+  },
+  {
+    id: 5,
+    title: "JavaScript Program to Swap Two Variables",
+    slug: "Swap-Two-Variables",
+  },
+  {
+    id: 6,
+    title:
+      "JavaScript Program to Check if a number is Positive, Negative, or Zero",
+    slug: "Number-is-Positive-Negative-Zero",
+  },
+  {
+    id: 7,
+    title: "JavaScript Program to Check if a Number is Odd or Even",
+    slug: "Number-is-Odd-or-Even",
+  },
+  {
+    id: 8,
+    title: "JavaScript Program to Find the Largest Among Three Numbers",
+    slug: "Find-the-Largest-Among-Three-Numbers",
+  },
+  {
+    id: 9,
+    title: "JavaScript Program to Check Prime Number",
+    slug: "Check-Prime-Number",
+  },
+  {
+    id: 10,
+    title: "JavaScript Program to Print All Prime Numbers in an Intervals",
+    slug: "Print-All-Prime-Numbers-in-an-Interval",
+  },
+  {
+    id: 11,
+    title: "JavaScript Program to Display the Multiplication Table",
+    slug: "Display-the-Multiplication-Table",
+  },
+  {
+    id: 12,
+    title: "JavaScript Program to Find the Sum of Natural Numbers",
+    slug: "Find-the-Sum-of-Natural-Numbers",
+  },
 ];
