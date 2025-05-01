@@ -418,6 +418,9 @@ export const frontendData = [
     id: 2,
     title: "JavaScript Program to Add Two Numbers",
     slug: "Add-Two-Numbers",
+    Sourcecode:
+      "Source Code : const num1 = 5;const num2 = 3;// add two numbers const sum = num1 + num2; // display the sum console.log('The sum of ' + num1 + ' and ' + num2 + ' is: ' + sum);",
+    output: "The sum of 5 and 3 is: 8",
   },
   {
     id: 3,

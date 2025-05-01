@@ -10,16 +10,24 @@ const SingleQuestion = () => {
   );
 
   return (
-    <div className="flex flex-col items-center justify-center">
-      <div>
+    <div className=" ">
+      <div className="  flex items-center justify-center">
         {frontendObj?.map((obj, id) => (
-          <div key={id}>
+          <div key={id} className="w-1/2 py-3">
             <div>
-              <h1>{obj?.title}</h1>
-              <p>{obj?.desc}</p>
+              <h1 className="text-4xl font-bold py-5 flex justify-center">
+                {obj?.title}
+              </h1>
+              <p className="text-2xl py-5 px-3 flex justify-center items-center self-center">
+                {obj?.desc}
+              </p>
             </div>
-            <span>{obj?.Sourcecode}</span>
-            <div>{obj?.output}</div>
+            <span className="text-3xl font-bold text-amber-300 flex justify-center">
+              {obj?.Sourcecode}
+            </span>
+            <div className="text-3xl font-bold text-blue-950 flex justify-center py-5">
+              {obj?.output}
+            </div>
           </div>
         ))}
       </div>
