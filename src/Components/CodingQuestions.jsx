@@ -1,17 +1,26 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { frontendData } from "../Data";
 import { Link } from "react-router-dom";
 const FrontendPrograms = () => {
+  let [getData, setGetData] = useState("");
+  useEffect(() => {
+    fetch("https://optimist-dev-backend.onrender.com/api/interview-questions")
+      .then((res) => res.json())
+      .then((data) => setGetData(data))
+      .catch((error) => {
+        error;
+      });
+  }, []);
   return (
     <div className="p-4">
-      <h2 className="text-2xl font-bold mb-4">Javascript Questions</h2>
-      <div className="p-4 grid  grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-2 ">
-        {frontendData.map((obj, id) => (
+      <h2 className="mb-4 text-2xl font-bold">Javascript Questions</h2>
+      <div className="grid grid-cols-1 gap-2 p-4 sm:grid-cols-2 lg:grid-cols-3 ">
+        {getData?.questions?.map((obj, id) => (
           <div key={id} className="mb-6 ">
-            <ul className="list-disc list-inside rounded-sm gap-2 flex flex-col  p-4 ">
-              <Link to={`/interview-preparation/${obj.slug}/SingleQ/${obj.id}`}>
-                <li className="mb-1 px-3 py-5 rounded-md bg-white border-r-8 border-r-[#14324d] font-semibold text-[#063b69] text-sm pl-3">
-                  {obj.title}
+            <ul className="flex flex-col gap-2 p-4 list-disc list-inside rounded-sm ">
+              <Link to={`/interview-preparation/${obj.slug}/SingleQ`}>
+                <li className="mb-1 px-3 py-5 rounded-md bg-white border-r-8 shadow-md border-r-[#14324d] font-semibold text-[#063b69] text-sm pl-3">
+                  {obj.question}
                 </li>
               </Link>
             </ul>
@@ -23,15 +32,3 @@ const FrontendPrograms = () => {
 };
 
 export default FrontendPrograms;
-
-{
-  /* <ul className="list-disc list-inside rounded-sm gap-2 flex flex-col  p-4 ">
-  {set.map((question, idx) => (
-    <li
-      key={idx}
-      className="mb-1 px-3 py-5 rounded-md bg-white border-r-8 border-r-[#14324d] font-semibold text-[#063b69] text-sm pl-3">
-      {question}
-    </li>
-  ))}
-</ul>; */
-}

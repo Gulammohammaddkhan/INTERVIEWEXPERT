@@ -48,9 +48,10 @@ function CustomButton({
   margin,
   style,
   path,
+  onClick,
 }) {
   return (
-    <button>
+    <button onClick={onClick}>
       <Link
         to={path}
         className="flex gap-2 items-center rounded "

@@ -2,6 +2,7 @@ import React from "react";
 import CustomButton from "./CustomButton";
 import { questionData } from "../Data";
 import QuestionsCard from "./QuestionsCard";
+import { useNavigate } from "react-router-dom";
 
 // function Questions() {
 //   return (
@@ -62,7 +63,11 @@ function Questions() {
           margin={"0 0 40px 0"}
         ></CustomButton>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 ml-16">
+      <div
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 ml-16
+      
+      "
+      >
         {questionData.map((object, index) => {
           return <QuestionsCard data={object} key={index} />;
         })}
