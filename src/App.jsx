@@ -24,7 +24,7 @@ function AppContent() {
   const location = useLocation();
   console.log(location);
 
-  const handlePathName = useMatch("/interview-preparation/:slug/SingleQ/:id");
+  const handlePathName = useMatch("/interview-preparation/:slug/SingleQ");
 
   return (
     <>
@@ -35,7 +35,7 @@ function AppContent() {
         <Route path="/interview-preparation" element={<CodingQuestions />} />
         <Route path="/" element={<Home />} />
         <Route
-          path="/interview-preparation/:slug/SingleQ/:id"
+          path="/interview-preparation/:slug/SingleQ"
           element={<SingleQuestion />}
         />
       </Routes>

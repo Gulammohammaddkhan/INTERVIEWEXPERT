@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
-import logo from "../assets/Images/logo.png";
+import logo from "../assets/Images/logo.jpg";
 
 const Header = ({ bgColor = "#00182e" }) => {
   const [showInfo, setShowInfo] = useState(false);
@@ -20,11 +20,12 @@ const Header = ({ bgColor = "#00182e" }) => {
       <div className="flex items-center justify-between px-6 py-5 md:px-10">
         <Link
           to="/"
-          className="flex items-center justify-center gap-2 text-lg font-bold">
+          className="flex items-center justify-center gap-2 text-lg font-bold"
+        >
           <img
             src={logo}
             alt="logo"
-            className="w-[100px] bg-[#00182e] text-white "
+            className="w-[200px] bg-[#00182e] text-white "
           />
         </Link>
 
@@ -32,22 +33,26 @@ const Header = ({ bgColor = "#00182e" }) => {
         <div className="items-center hidden gap-10 md:flex">
           <div
             onClick={() => setShowInfo((prev) => !prev)}
-            className="cursor-pointer relative after:content-[''] after:block after:w-full after:h-[1px] after:bg-white after:scale-x-0 after:transition-transform after:duration-200 hover:after:scale-x-100">
+            className="cursor-pointer relative after:content-[''] after:block after:w-full after:h-[1px] after:bg-white after:scale-x-0 after:transition-transform after:duration-200 hover:after:scale-x-100"
+          >
             Products
           </div>
           <Link
             to="/Content"
-            className="relative after:content-[''] after:block after:w-full after:h-[1px] after:bg-white after:scale-x-0 after:transition-transform after:duration-200 hover:after:scale-x-100">
+            className="relative after:content-[''] after:block after:w-full after:h-[1px] after:bg-white after:scale-x-0 after:transition-transform after:duration-200 hover:after:scale-x-100"
+          >
             Content
           </Link>
           <Link
             to="/Team"
-            className="relative after:content-[''] after:block after:w-full after:h-[1px] after:bg-white after:scale-x-0 after:transition-transform after:duration-200 hover:after:scale-x-100">
+            className="relative after:content-[''] after:block after:w-full after:h-[1px] after:bg-white after:scale-x-0 after:transition-transform after:duration-200 hover:after:scale-x-100"
+          >
             Team
           </Link>
           <Link
             to="/Purchase"
-            className="relative after:content-[''] after:block after:w-full after:h-[1px] after:bg-white after:scale-x-0 after:transition-transform after:duration-200 hover:after:scale-x-100">
+            className="relative after:content-[''] after:block after:w-full after:h-[1px] after:bg-white after:scale-x-0 after:transition-transform after:duration-200 hover:after:scale-x-100"
+          >
             Purchase
           </Link>
         </div>
@@ -69,7 +74,8 @@ const Header = ({ bgColor = "#00182e" }) => {
         <div className="flex flex-col gap-4 px-6 pb-4 md:hidden">
           <div
             onClick={() => setShowInfo(!showInfo)}
-            className="cursor-pointer">
+            className="cursor-pointer"
+          >
             Products
           </div>
           <Link to="/Content" onClick={() => setMenuOpen(false)}>
@@ -91,7 +97,8 @@ const Header = ({ bgColor = "#00182e" }) => {
       {showInfo && (
         <div
           onClick={handleRouteChange}
-          className="cursor-pointer transition-all duration-300 absolute left-1/2 transform -translate-x-1/2 top-24 z-40 bg-white text-black p-4 rounded shadow-lg w-[90%] sm:w-auto">
+          className="cursor-pointer transition-all duration-300 absolute left-1/2 transform -translate-x-1/2 top-24 z-40 bg-white text-black p-4 rounded shadow-lg w-[90%] sm:w-auto"
+        >
           <h3 className="text-lg font-bold">FrontendExpert</h3>
           <p className="text-sm">Ace the frontend interviews</p>
           <button
@@ -99,7 +106,8 @@ const Header = ({ bgColor = "#00182e" }) => {
               e.stopPropagation();
               setShowInfo(false);
             }}
-            className="px-3 py-1 mt-4 text-white bg-red-500 rounded hover:bg-red-600">
+            className="px-3 py-1 mt-4 text-white bg-red-500 rounded hover:bg-red-600"
+          >
             Close
           </button>
         </div>
