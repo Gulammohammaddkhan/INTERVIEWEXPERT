@@ -6,15 +6,14 @@ function Hero() {
   const location = useLocation();
   return (
     <div className="flex flex-col-reverse md:flex-row justify-between items-center relative bg-[#00182e] pl-6 md:pl-16 pr-0">
-      {/* Left Content */}
       <div className="flex flex-col bg-[#00182e] text-white pt-12 md:pt-28 pb-12 md:pb-24">
         <div>
-          <h1 className="text-3xl md:text-5xl font-bold pb-6">
+          <h1 className="pb-6 text-3xl font-bold md:text-5xl">
             {location.pathname === "/interview-preparation"
               ? "Front-End Expert"
               : "Interview Expert"}
           </h1>
-          <p className="text-base md:text-lg pb-6">
+          <p className="pb-6 text-base md:text-lg">
             The ultimate resource to prepare for frontends coding interviews.
             <br />
             Everything you need, in one streamlined platform.

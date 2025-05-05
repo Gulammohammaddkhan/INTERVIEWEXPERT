@@ -17,7 +17,7 @@ import cPlus from "../assets/Images/Cplus.png";
 // function Languages() {
 //   return (
 //     <div className="pb-20">
-//       <div className="flex flex-col lg:flex-row pt-10 my-10 mx-10">
+//       <div className="flex flex-col pt-10 mx-10 my-10 lg:flex-row">
 //         <div className="flex flex-col w-full lg:w-[50%]">
 //           <h2 className="text-4xl sm:text-3xl font-semibold text-[#02213d] pb-7">
 //             We Speak 9 Languages.
@@ -90,32 +90,32 @@ import cPlus from "../assets/Images/Cplus.png";
 
 //         <div className="flex justify-center items-center mt-10 lg:mt-0 lg:w-[50%]">
 //           <div className="relative w-64 h-64 perspective-[1000px]">
-//             <div className="cube absolute inset-0 m-auto w-full h-full">
+//             <div className="absolute inset-0 w-full h-full m-auto cube">
 //               <div className="face front">
 //                 <img
 //                   src={python}
-//                   className="w-full h-full object-cover"
+//                   className="object-cover w-full h-full"
 //                   alt="Python"
 //                 />
 //               </div>
 //               <div className="face back">
 //                 <img
 //                   src={rat}
-//                   className="w-full h-full object-cover"
+//                   className="object-cover w-full h-full"
 //                   alt="Rat"
 //                 />
 //               </div>
 //               <div className="face right">
 //                 <img
 //                   src={cPlus}
-//                   className="w-full h-full object-cover"
+//                   className="object-cover w-full h-full"
 //                   alt="C++"
 //                 />
 //               </div>
 //               <div className="face left">
 //                 <img
 //                   src={jspic}
-//                   className="w-full h-full object-cover"
+//                   className="object-cover w-full h-full"
 //                   alt="JavaScript"
 //                 />
 //               </div>
@@ -128,7 +128,7 @@ import cPlus from "../assets/Images/Cplus.png";
 //         Hey there! Do you want to ace your upcoming coding interviews?
 //       </div>
 
-//       <div className="flex gap-5 ml-10 flex-wrap justify-center">
+//       <div className="flex flex-wrap justify-center gap-5 ml-10">
 //         <div className="bg-white text-center items-center text-lg text-[#597080] rounded-lg">
 //           <CustomButton
 //             text={"Of course!"}
@@ -157,7 +157,7 @@ import "./Cube.css";
 function Languages() {
   return (
     <div className="pb-20 bg-[#f7fafc]">
-      <div className="flex flex-col lg:flex-row pt-10 my-10 mx-10">
+      <div className="flex flex-col pt-10 mx-10 my-10 lg:flex-row">
         {/* Left Section */}
         <div className="flex flex-col w-full lg:w-[50%]">
           <h2 className="text-4xl sm:text-3xl font-semibold text-[#02213d] pb-7">
@@ -237,28 +237,28 @@ function Languages() {
                 <img
                   src={python}
                   alt="Python"
-                  className="w-full h-full object-cover"
+                  className="object-cover w-full h-full"
                 />
               </div>
               <div className="face back">
                 <img
                   src={rat}
                   alt="Rat"
-                  className="w-full h-full object-cover"
+                  className="object-cover w-full h-full"
                 />
               </div>
               <div className="face right">
                 <img
                   src={cPlus}
                   alt="C++"
-                  className="w-full h-full object-cover"
+                  className="object-cover w-full h-full"
                 />
               </div>
               <div className="face left">
                 <img
                   src={jspic}
                   alt="JavaScript"
-                  className="w-full h-full object-cover"
+                  className="object-cover w-full h-full"
                 />
               </div>
             </div>
@@ -267,19 +267,19 @@ function Languages() {
       </div>
 
       {/* Bottom Section */}
-      <div className="bg-[#ffffff] py-5 pl-5 mx-10 rounded-md shadow-4xl text-[#597080] text-lg my-5">
+      <div className="bg-[#ffffff] py-5 pl-5 mx-10 rounded-md shadow-md text-[#597080] text-lg my-5">
         Hey there! Do you want to ace your upcoming coding interviews?
       </div>
 
-      <div className="flex gap-5 ml-10 flex-wrap justify-center">
-        <div className="bg-white text-center items-center text-lg text-[#597080] rounded-lg">
+      <div className="flex flex-wrap justify-center gap-5 ml-10">
+        <div className="bg-white text-center shadow-md items-center text-lg text-[#597080] rounded-lg">
           <CustomButton
             text={"Of course!"}
             cursor={"pointer"}
             padding={"10px 40px"}
           />
         </div>
-        <div className="bg-white text-center items-center text-lg text-[#597080] rounded-lg">
+        <div className="bg-white text-center shadow-md items-center text-lg text-[#597080] rounded-lg">
           <CustomButton
             text={"Nope."}
             cursor={"pointer"}
