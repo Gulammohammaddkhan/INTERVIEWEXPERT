@@ -4,7 +4,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
 import logo from "../assets/Images/logo.jpg";
 
-const Header = ({ bgColor = "#00182e" }) => {
+const Header = () => {
   const [showInfo, setShowInfo] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const navigate = useNavigate();
@@ -16,7 +16,7 @@ const Header = ({ bgColor = "#00182e" }) => {
   };
 
   return (
-    <div className={`relative text-white`} style={{ backgroundColor: bgColor }}>
+    <div className=" bg-[#00182e] relative text-white ">
       <div className="flex items-center justify-between px-6 py-5 md:px-10">
         <Link
           to="/Home"
@@ -105,8 +105,12 @@ const Header = ({ bgColor = "#00182e" }) => {
         <div
           onClick={handleRouteChange}
           className="cursor-pointer transition-all duration-300 absolute left-1/2 transform -translate-x-1/2 top-24 z-40 bg-white text-black p-4 rounded shadow-lg w-[90%] sm:w-auto">
-          <h3 className="text-lg font-bold">FrontendExpert</h3>
-          <p className="text-sm">Ace the frontend interviews</p>
+          <h3
+            style={{ fontFamily: "Inter, sans-serif" }}
+            className="text-lg font-bold font-inter">
+            FrontendExpert
+          </h3>
+          <p className="text-sm font-inter">Ace the frontend interviews</p>
           <button
             onClick={(e) => {
               e.stopPropagation();

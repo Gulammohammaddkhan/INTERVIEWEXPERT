@@ -53,14 +53,14 @@ import CustomButton from "./CustomButton";
 
 function DataStructures() {
   return (
-    <div className="flex flex-col lg:flex-row pb-20">
+    <div className="flex flex-col pb-20 lg:flex-row">
       {/* Image Section */}
       <div className="w-full lg:w-[50%]">
         <img
           src={xImg}
           className="rounded-[8px] w-full
             shadow-[27.1px_62.5px_125px_-25px_rgba(50,50,93,0.6),16.2px_37.5px_75px_-37.5px_rgba(0,0,0,0.7)]
-            [transform:rotate3d(0.7,0.866,0,15deg)_rotate(-1deg)] ml-[-45px] mb-5 lg:mb-0  "
+            [transform:rotate3d(0.7,0.866,0,18deg)_rotate(-1deg)] ml-[-45px] mb-5 lg:mb-0  "
           alt="Data Structures"
         />
       </div>
