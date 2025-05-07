@@ -6,8 +6,8 @@ import hero from "../assets/Images/newer-logo.png";
 function Hero() {
   const location = useLocation();
   return (
-    <div className="flex flex-col-reverse md:flex-row justify-between items-center relative bg-[#00182e] pl-6 md:pl-16 pr-0">
-      <div className="flex flex-col bg-[#00182e] text-white pt-12 md:pt-28 pb-12 md:pb-24">
+    <div className="flex md:flex-row justify-center md:justify-between items-center relative bg-gradient-to-br from-[#00182e] via-[#002c4c] to-[#003f6b] pl-6 md:pl-16 pr-0">
+      <div className="flex flex-col items-center pt-12 pb-12 text-center text-white md:pt-28 md:pb-24 md:items-start md:text-left">
         <div>
           <h1 className="pb-6 text-3xl font-ubuntu md:text-5xl">
             {location.pathname === "/interview-preparation"
@@ -46,22 +46,18 @@ function Hero() {
         </div>
       </div>
       {/* Image */}
-      <div className="relative w-full md:w-[50%] flex justify-center ">
-        <img
-          src={hero}
-          alt="Hero"
-          className="w-[600px]  h-[450px]  absolute bottom-[-287px]
-    rounded-[10px] 
-    shadow-[20px_30px_60px_-15px_rgba(0,0,0,0.4)] 
-    [transform:rotate3d(1,-0.5,0,15deg)_rotate(2deg)] 
-    transition-transform duration-500 
-     "
-        />
-        {/* <img
-          src="https://plus.unsplash.com/premium_photo-1681487769650-a0c3fbaed85a?q=80&w=2155&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          className="w-full max-w-[600px] h-[450px] object-cover "
-          alt="Hero"
-        /> */}
+      <div className="relative  w-full md:w-[50%] hidden md:block ">
+        {location.pathname === "/interview-preparation" ? (
+          ""
+        ) : (
+          <img
+            src={hero}
+            alt="Hero"
+            className=" w-[600px] hidden md:block h-[450px]  absolute bottom-[-287px] rounded-[10px] 
+        shadow-[20px_30px_60px_-15px_rgba(0,0,0,0.4)] [transform:rotate3d(1,-0.5,0,15deg)_rotate(2deg)] 
+  transition-transform duration-500 "
+          />
+        )}
       </div>
     </div>
   );

@@ -16,7 +16,7 @@ const Header = () => {
   };
 
   return (
-    <div className=" bg-[#00182e] relative text-white ">
+    <div className="bg-gradient-to-br from-[#00182e] via-[#0c2b41] to-[#022741] relative text-white">
       <div className="flex items-center justify-between px-6 py-5 md:px-10">
         <Link
           to="/Home"
@@ -51,7 +51,7 @@ const Header = () => {
             Purchase
           </Link>
         </div>
-        <div className="flex">
+        {/* <div className="flex">
           <button
             className="hidden md:block p-2 hover:border-[#626ee3] hover:border-2 rounded-sm"
             onClick={() => {
@@ -66,7 +66,7 @@ const Header = () => {
             }}>
             Log In
           </button>
-        </div>
+        </div> */}
 
         {/* Mobile Menu Icon */}
         <div className="md:hidden">
