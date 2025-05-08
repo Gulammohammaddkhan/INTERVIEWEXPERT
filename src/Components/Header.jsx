@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
-import logo from "../assets/Images/logo.jpg";
+import logo from "../assets/Images/new-logo2.jpg";
 
 const Header = () => {
   const [showInfo, setShowInfo] = useState(false);
@@ -20,7 +20,8 @@ const Header = () => {
       <div className="flex items-center justify-between px-6 py-5 md:px-10">
         <Link
           to="/"
-          className="flex items-center justify-center gap-2 text-lg font-bold">
+          className="flex items-center justify-center gap-2 text-lg font-bold"
+        >
           <img
             src={logo}
             alt="logo"
@@ -54,21 +55,22 @@ const Header = () => {
 
         {/* Mobile Menu Icon */}
         <div className="md:hidden">
-          <button onClick={() => setMenuOpen(!menuOpen)}>
+          {/* <button onClick={() => setMenuOpen(!menuOpen)}>
             {menuOpen ? <IoClose size={24} /> : <GiHamburgerMenu size={24} />}
-          </button>
+          </button> */}
         </div>
       </div>
 
       {/* Mobile Nav */}
-      {menuOpen && (
+      {/* {menuOpen && (
         <div className="flex flex-col gap-4 px-6 pb-4 md:hidden">
           <Link to="/Content" onClick={() => setMenuOpen(false)}>
             Content
           </Link>
           <div
             onClick={() => setShowInfo(!showInfo)}
-            className="cursor-pointer">
+            className="cursor-pointer"
+          >
             Products
           </div>
           <Link to="/Team" onClick={() => setMenuOpen(false)}>
@@ -83,15 +85,17 @@ const Header = () => {
             </button>
           </div>
         </div>
-      )}
+      )} */}
 
       {showInfo && (
         <div
           onClick={handleRouteChange}
-          className="cursor-pointer transition-all duration-300 absolute right-20 transform -translate-x-1/2 top-[70px] z-40 bg-white text-black p-4 rounded shadow-lg w-[90%] sm:w-auto">
+          className="cursor-pointer transition-all duration-300 absolute right-20 transform -translate-x-1/2 top-[70px] z-40 bg-white text-black p-4 rounded shadow-lg w-[90%] sm:w-auto"
+        >
           <h3
             style={{ fontFamily: "Inter, sans-serif" }}
-            className="text-lg font-bold font-inter">
+            className="text-lg font-bold font-inter"
+          >
             FrontendExpert
           </h3>
           <p className="text-sm font-inter">Ace the frontend interviews</p>
@@ -100,7 +104,8 @@ const Header = () => {
               e.stopPropagation();
               setShowInfo(false);
             }}
-            className="px-3 py-1 mt-4 text-white bg-red-500 rounded hover:bg-red-600">
+            className="px-3 py-1 mt-4 text-white bg-red-500 rounded hover:bg-red-600"
+          >
             Close
           </button>
         </div>

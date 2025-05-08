@@ -2,6 +2,9 @@ import React from "react";
 import CustomButton from "./CustomButton";
 import QuestionsCard from "./QuestionsCard";
 import { IoCheckmarkCircleSharp } from "react-icons/io5";
+import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 function Questions() {
   const questionData = [
@@ -81,6 +84,16 @@ function Questions() {
       text: "Stacks",
     },
   ];
+  const navigate = useNavigate();
+  const clickHandler = () => {
+    navigate("/products");
+  };
+
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
   return (
     <div className="bg-[#02213d] flex flex-col justify-center items-center text-white pt-20 pb-20 px-6">
@@ -102,7 +115,9 @@ function Questions() {
           padding={"10px 30px"}
           fontWeight={"bold"}
           cursor={"pointer"}
-          margin={"0 0 40px 0"}></CustomButton>
+          margin={"0 0 40px 0"}
+          onClick={clickHandler}
+        ></CustomButton>
       </div>
       <div className="grid grid-cols-1 gap-9 md:grid-cols-2 lg:grid-cols-3 ">
         {questionData.map((object, index) => {

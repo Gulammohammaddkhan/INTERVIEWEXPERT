@@ -27,7 +27,7 @@ function AppContent() {
 
   return (
     <>
-      <div className="bg-gradient-to-br from-[#00182e] via-[#073455] to-[#044574]">
+      <div className="bg-[#022a45]">
         {!handlePathName ? <Header /> : ""}
         {!handlePathName ? <Hero /> : ""}
       </div>
