@@ -31,7 +31,7 @@ function AutoSlider({ children, dir }) {
   };
 
   return (
-    <div className="w-full max-w-6xl mx-auto px-4 overflow-hidden">
+    <div className="w-full max-w-6xl px-4 mx-auto overflow-hidden">
       <Slider {...settings}>{children}</Slider>
     </div>
   );

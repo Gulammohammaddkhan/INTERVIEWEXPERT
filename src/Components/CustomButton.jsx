@@ -1,4 +1,5 @@
 import React from "react";
+import { IoIosArrowBack } from "react-icons/io";
 import { Link } from "react-router-dom";
 
 // function CustomButton({
@@ -12,7 +13,7 @@ import { Link } from "react-router-dom";
 // }) {
 //   return (
 //     <button
-//       className="flex gap-2 rounded items-center font-medium cursor-pointer transition-all"
+//       className="flex items-center gap-2 font-medium transition-all rounded cursor-pointer"
 //       style={{
 //         backgroundColor: bgColor,
 // transition: "background-color 0.",
@@ -37,7 +38,7 @@ import { Link } from "react-router-dom";
 
 function CustomButton({
   img,
-  text,
+  text = <IoIosArrowBack />,
   bgColor,
   textColor,
   padding,
@@ -54,7 +55,7 @@ function CustomButton({
     <button onClick={onClick}>
       <Link
         to={path}
-        className="flex gap-2 items-center rounded "
+        className="flex items-center gap-2 rounded "
         style={{
           backgroundColor: bgColor,
           color: textColor,
@@ -65,8 +66,7 @@ function CustomButton({
           cursor: cursor,
           margin: margin,
           style: style,
-        }}
-      >
+        }}>
         {img}
         {text}
       </Link>

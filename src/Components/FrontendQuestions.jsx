@@ -3,8 +3,8 @@ import CustomButton from "./CustomButton";
 
 function FrontendQuestions() {
   return (
-    <div className="w-full flex py-20 px-6 gap-6 items-center flex-col md:flex-row bg-[#f7fafc]">
-      <div className="flex-1 min-w-[300px] mb-6 md:mb-0 md:mr-6">
+    <div className="flex flex-col items-center px-10 py-20 gap-7 md:flex-row">
+      <div className="flex-1 mb-6 md:mb-0 md:mr-6">
         <h2 className="text-[#02213d] text-4xl pb-6">
           Frontend Coding Questions.
         </h2>
@@ -30,36 +30,36 @@ function FrontendQuestions() {
           path="/interview-preparation"
         />
       </div>
-      <div className="flex-1 min-w-[300px] space-y-3 ml-6 flex flex-col justify-center">
-        <div className="flex justify-between items-center rounded-sm bg-white">
+      <div className="flex flex-col md:w-[50%] justify-center w-full gap-6">
+        <div className="flex items-center justify-between  lg:w-[80%]  w-full bg-white rounded-sm shadow-md">
           <div className="font-semibold text-[#063b69] text-sm pl-3">
             Testing Framework
           </div>
           <div className="px-3 py-5 bg-[#063b69] rounded-r-sm border-r-8 border-r-[#02213d]"></div>
         </div>
 
-        <div className="flex justify-between items-center rounded-sm bg-white">
+        <div className="flex items-center justify-between  lg:w-[80%] w-full bg-white rounded-sm shadow-md">
           <div className="font-semibold text-[#063b69] text-sm pl-3">
             Rainbow Circles
           </div>
           <div className="px-3 py-5 bg-[#063b69] rounded-r-sm border-r-8 border-r-[#02213d]"></div>
         </div>
 
-        <div className="flex justify-between items-center rounded-sm bg-white">
+        <div className="flex items-center justify-between lg:w-[80%]  w-full bg-white rounded-sm shadow-md">
           <div className="font-semibold text-[#063b69] text-sm pl-3">
             Infinite Scroll
           </div>
           <div className="px-3 py-5 bg-[#063b69] rounded-r-sm border-r-8 border-r-[#02213d]"></div>
         </div>
 
-        <div className="flex justify-between items-center rounded-sm bg-white">
+        <div className="flex items-center justify-between  lg:w-[80%] w-full bg-white rounded-sm shadow-md">
           <div className="font-semibold text-[#063b69] text-sm pl-3">
             Tic Tac Toe
           </div>
           <div className="px-3 py-5 bg-[#063b69] rounded-r-sm border-r-8 border-r-[#02213d]"></div>
         </div>
 
-        <div className="flex justify-between items-center rounded-sm bg-white">
+        <div className="flex items-center justify-between lg:w-[80%]  w-full bg-white rounded-sm shadow-md">
           <div className="font-semibold text-[#063b69] text-sm pl-3">
             Stop Watch
           </div>

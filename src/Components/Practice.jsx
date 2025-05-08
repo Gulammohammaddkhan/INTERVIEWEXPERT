@@ -42,7 +42,7 @@ import practice from "../assets/Images/PracticeImg.webp";
 
 function Practice() {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mx-10 my-30">
+    <div className="grid grid-cols-1 gap-10 mx-10 my-10 lg:grid-cols-2">
       {/* Left Section (Text and Button) */}
       <div className="">
         <h2 className="text-4xl sm:text-3xl text-[#02213d] pb-7">
@@ -70,11 +70,11 @@ function Practice() {
       </div>
 
       {/* Right Section (Image) */}
-      <div className="w-full lg:pl-10">
+      <div className="w-full ">
         <img
           src={practice}
           alt="Practice Workspace"
-          className="w-full object-cover"
+          className="object-cover w-full"
         />
       </div>
     </div>
