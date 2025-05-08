@@ -99,7 +99,7 @@ function About() {
           What is InterviewExpert?
         </h2>
 
-        <div className="flex justify-center mt-4">
+        {/* <div className="flex justify-center mt-4">
           <CustomButton
             img={
               <svg
@@ -119,7 +119,7 @@ function About() {
             bgColor="#fff"
             textColor="#000"
           />
-        </div>
+        </div> */}
       </div>
 
       {/* Cards Section */}

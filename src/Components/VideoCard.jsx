@@ -101,7 +101,7 @@ function Videos() {
               Our videos all start with an in-depth conceptual overview of the
               algorithm at hand: how to approach it, how to implement it, how to
               optimize it, and how to analyze its space-time complexity.
-              <b className="text-[#626fe3] cursor-pointer">See an example</b>
+              {/* <b className="text-[#626fe3] cursor-pointer">See an example</b> */}
             </p>
           </div>
 
@@ -117,7 +117,7 @@ function Videos() {
               Our videos all end with a complete walkthrough from start to
               finish of the actual code implementation of the algorithm. This is
               done in Python, since Python is very easy to read.
-              <b className="text-[#626fe3] cursor-pointer">See an example</b>
+              {/* <b className="text-[#626fe3] cursor-pointer">See an example</b> */}
             </p>
           </div>
         </div>

@@ -101,7 +101,7 @@ function Notation() {
       </div>
 
       {/* Button Section */}
-      <div className="flex justify-center mt-10">
+      {/* <div className="flex justify-center mt-10">
         <CustomButton
           text={
             <>
@@ -113,7 +113,7 @@ function Notation() {
           textColor={"white"}
           cursor={"pointer"}
         />
-      </div>
+      </div> */}
     </div>
   );
 }

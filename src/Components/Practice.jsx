@@ -60,13 +60,13 @@ function Practice() {
           Run your code again. Check the output. Pass the tests. View our
           solution. Watch our video. All within the same workspace.
         </p>
-        <CustomButton
+        {/* <CustomButton
           text={"Try Our Workspace"}
           bgColor={"#626fe3"}
           padding={"10px 40px 10px 40px"}
           textColor={"white"}
           cursor={"pointer"}
-        />
+        /> */}
       </div>
 
       {/* Right Section (Image) */}

@@ -12,7 +12,7 @@ function ReviewCard({ data }) {
           <h5 className="pb-5 text-xl font-semibold pt-7">{data.name}</h5>
           <h5 className="pb-5 text-xl">{data.title}</h5>
           <img src={data.company} className="h-[25px] pb-1.5" />
-          <p className="h-[150px] overflow-y-auto text-[#6b6b6e] pr-2 pl-4 pt-5 pb-5 self-center ">
+          <p className="h-[150px] overflow-y-auto text-[#6b6b6e] pr-2 pl-4 pt-5 pb-5 self-center scrollbar-hide ">
             {data.disc}
           </p>
         </div>

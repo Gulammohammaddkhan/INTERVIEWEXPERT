@@ -7,7 +7,7 @@ function Card({ item }) {
       <div className="text-[#626fe3]">{item.logo}</div>
       <h3 className="pb-4 text-xl font-normal">{item.heading}</h3>
       <p className="font-light">{item.disc}</p>
-      <Link className="text-[#626fe3] ">{item.link.title}</Link>
+      {/* <Link className="text-[#626fe3] ">{item.link.title}</Link> */}
     </div>
   );
 }

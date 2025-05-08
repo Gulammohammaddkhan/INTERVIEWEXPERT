@@ -267,11 +267,11 @@ function Languages() {
       </div>
 
       {/* Bottom Section */}
-      <div className="bg-[#ffffff] py-5 pl-5 mx-10 rounded-md shadow-md text-[#597080] text-lg my-5">
+      {/* <div className="bg-[#ffffff] py-5 pl-5 mx-10 rounded-md shadow-md text-[#597080] text-lg my-5">
         Hey there! Do you want to ace your upcoming coding interviews?
-      </div>
+      </div> */}
 
-      <div className="flex flex-wrap justify-center gap-5 ml-10">
+      {/* <div className="flex flex-wrap justify-center gap-5 ml-10">
         <div className="bg-white text-center shadow-md items-center text-lg text-[#597080] rounded-lg">
           <CustomButton
             text={"Of course!"}
@@ -286,7 +286,7 @@ function Languages() {
             padding={"10px 40px"}
           />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

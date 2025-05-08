@@ -84,7 +84,7 @@ function DataStructures() {
           concepts are applied under the hood. Linked Lists and Binary Trees
           will never instill fear in your heart again.
         </p>
-        <div className="text-start">
+        {/* <div className="text-start">
           <CustomButton
             text={"Start The Course"}
             bgColor={"#626fe3"}
@@ -93,7 +93,7 @@ function DataStructures() {
             textColor={"white"}
             cursor={"pointer"}
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );
