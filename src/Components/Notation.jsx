@@ -43,7 +43,7 @@ import { FaCoins } from "react-icons/fa6";
 //         <CustomButton
 //           text={
 //             <>
-//               Become An AlgoExpert <span className="text-3xl">&rarr;</span>
+//               Become An InterviewExpert <span className="text-3xl">&rarr;</span>
 //             </>
 //           }
 //           bgColor={"#626fe3"}
@@ -105,7 +105,7 @@ function Notation() {
         <CustomButton
           text={
             <>
-              Become An AlgoExpert <span className="text-3xl">&rarr;</span>
+              Become An InterviewExpert <span className="text-3xl">&rarr;</span>
             </>
           }
           bgColor={"#626fe3"}

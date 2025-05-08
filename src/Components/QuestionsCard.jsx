@@ -1,10 +1,8 @@
 import React from "react";
-import { questionData } from "../Data";
-import { IoCheckmarkCircleSharp } from "react-icons/io5";
 
 function QuestionsCard({ data }) {
   return (
-    <div className="bg-[#15304a] w-[300px] h-[140px] flex flex-col justify-center items-center  ">
+    <div className="bg-[#15304a] w-[300px] h-[140px] flex  justify-center items-center  ">
       {/* <div className="bg-[#15304a] grid grid-cols-3 ">
         {questionData.map((item, index) => {
           return (
@@ -12,7 +10,7 @@ function QuestionsCard({ data }) {
               <div key={index}>{item.icon}</div>
               <div>{item.text}</div>
             </div>
-          );
+          ); 
         })}
       </div> */}
 

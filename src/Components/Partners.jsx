@@ -23,15 +23,7 @@ function Partners() {
       <h4 className="self-center text-xl text-[#445d6e] pb-16">
         Our customers have gotten offers from awesome companies.
       </h4>
-      {/* <div className="slider-container">
-        <div className="slide  flex items-center justify-between gap-12">
-          {companyImages?.map((img, index) => (
-            <div key={index}>
-              <img src={img} />
-            </div>
-          ))}
-        </div>
-      </div> */}
+
       <div className="w-full flex justify-center items-center pb-10 overflow-hidden">
         <AutoSlider>
           {companyImages.map((item, i) => (

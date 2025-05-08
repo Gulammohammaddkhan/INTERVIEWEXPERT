@@ -14,7 +14,6 @@ import BeforeFooter from "../Components/BeforeFooter";
 import Footer from "../Components/Footer";
 import ContentWrapper from "../Components/ContentWrapper";
 import Languages from "../Components/Languages";
-import CodingQuestions from "../Components/CodingQuestions";
 
 const Home = () => {
   return (

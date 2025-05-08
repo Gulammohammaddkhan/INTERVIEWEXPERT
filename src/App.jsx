@@ -22,16 +22,19 @@ function App() {
 
 function AppContent() {
   const location = useLocation();
-  console.log(location);
 
   const handlePathName = useMatch("/interview-preparation/:slug/SingleQ");
 
   return (
     <>
-      {!handlePathName ? <Header /> : ""}
-      {!handlePathName ? <Hero /> : ""}
+      <div className="bg-gradient-to-br from-[#00182e] via-[#073455] to-[#044574]">
+        {!handlePathName ? <Header /> : ""}
+        {!handlePathName ? <Hero /> : ""}
+      </div>
       <Routes>
-        <Route path="/Products" element={<Products />} />
+        {/* <Route path="/" element={<Registration />} />
+        <Route path="/Login" element={<Login />} /> */}
+        <Route path="/products" element={<Products />} />
         <Route path="/interview-preparation" element={<CodingQuestions />} />
         <Route path="/" element={<Home />} />
         <Route
