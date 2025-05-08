@@ -15,7 +15,7 @@ import CustomButton from "./CustomButton";
 //         <CustomButton text={"Privacy Policy"} textColor={"white"} />
 //       </div>
 //       <div className="text-white text-center text-sm pb-6">
-//         Copyright © 2017-2025 AlgoExpert LLC. All rights reserved.
+//         Copyright © 2017-2025 InterviewExpert LLC. All rights reserved.
 //       </div>
 //     </div>
 //   );
@@ -62,7 +62,7 @@ function Footer() {
 
       {/* Copyright */}
       <div className="text-white text-center text-sm pb-6">
-        Copyright © 2017-2025 AlgoExpert LLC. All rights reserved.
+        Copyright © 2017-2025 InterviewExpert LLC. All rights reserved.
       </div>
     </div>
   );

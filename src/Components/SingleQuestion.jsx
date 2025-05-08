@@ -24,19 +24,19 @@ const SingleQuestion = () => {
     <div className="">
       <div className="flex items-center justify-center">
         <div key={getData?._id} className="w-full max-w-3xl px-4 py-3">
-          <div className="">
-            <CustomButton
-              onClick={onclickhandler}
-              text={"BACK"}
-              padding={"10px 25px"}
-              bgColor={"#00182e"}
-              textColor={"white"}
-            />
-          </div>
           <div>
-            <h1 className="text-4xl font-bold pt-5 text-[#000000]">
-              {getData?.question}
-            </h1>
+            <div className="flex items-end gap-5">
+              <CustomButton
+                onClick={onclickhandler}
+                padding={"10px 25px"}
+                bgColor={"#00182e"}
+                textColor={"white"}
+              />
+              <h1 className="text-4xl font-bold pt-5 text-[#000000]">
+                {getData?.question}
+              </h1>
+            </div>
+
             <p className="text-2xl text-[#637c87] py-2">{getData?.type}</p>
             <p className="text-xl text-[#637c87] py-2">
               {getData?.description}

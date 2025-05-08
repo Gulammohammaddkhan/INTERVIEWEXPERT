@@ -1,7 +1,5 @@
 import React from "react";
 import CustomButton from "./CustomButton";
-import { MdOutlineDeleteForever } from "react-icons/md";
-import illusion from "../assets/Images/Illusion.avif";
 
 function BeforeFooter() {
   return (
@@ -12,7 +10,7 @@ function BeforeFooter() {
           A Better Way To Land Interviews.
         </h2>
         <p className="pb-6 text-lg">
-          Earn the AlgoExpert Certificate. Get referred to tech companies.
+          Earn the InterviewExpert Certificate. Get referred to tech companies.
         </p>
         <p>No more InMail messages that get ignored.</p>
         <p className="pb-6 text-lg">No more cold emails that go nowhere.</p>
@@ -26,7 +24,8 @@ function BeforeFooter() {
           No more recruiting agencies that cost a fortune.
         </p>
         <p className="pb-6 text-lg">
-          With AlgoExpert , preparing for interviews helps you land interviews.
+          With InterviewExpert , preparing for interviews helps you land
+          interviews.
         </p>
         <CustomButton
           text={"Learn More"}
@@ -36,7 +35,7 @@ function BeforeFooter() {
       </div>
 
       {/* Image Section */}
-      <div className="relative md:w-1/2">
+      {/* <div className="relative md:w-1/2">
         <div className="flex justify-end pl-5 ">
           <img
             src={illusion}
@@ -49,7 +48,7 @@ function BeforeFooter() {
             <MdOutlineDeleteForever className="w-[75px] h-[75px]" />
           </button>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

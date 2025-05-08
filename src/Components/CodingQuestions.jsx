@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { frontendData } from "../Data";
 import { Link } from "react-router-dom";
 const FrontendPrograms = () => {
   let [getData, setGetData] = useState("");
