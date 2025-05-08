@@ -12,7 +12,7 @@ function Products() {
   return (
     <div>
       {/* <ContentWrapper> */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 py-12 px-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 py-12 px-6 bg-[#f7fafc]">
         {productData?.map((item, i) => (
           <Card item={item} key={i} />
         ))}

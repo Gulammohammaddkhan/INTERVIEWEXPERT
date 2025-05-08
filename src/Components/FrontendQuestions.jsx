@@ -3,7 +3,7 @@ import CustomButton from "./CustomButton";
 
 function FrontendQuestions() {
   return (
-    <div className="w-full flex py-20 px-6 gap-6 items-center flex-col md:flex-row">
+    <div className="w-full flex py-20 px-6 gap-6 items-center flex-col md:flex-row bg-[#f7fafc]">
       <div className="flex-1 min-w-[300px] mb-6 md:mb-0 md:mr-6">
         <h2 className="text-[#02213d] text-4xl pb-6">
           Frontend Coding Questions.
