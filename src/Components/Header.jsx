@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
-import logo from "../assets/Images/new-logo2.jpg";
+import logo from "../../public/new-logo2.jpg";
 
 const Header = () => {
   const [showInfo, setShowInfo] = useState(false);

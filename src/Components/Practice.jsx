@@ -1,6 +1,6 @@
 import React from "react";
 import CustomButton from "./CustomButton";
-import practice from "../assets/Images/PracticeImg.webp";
+import practice from "../../public/PracticeImg.webp";
 
 // function Practice() {
 //   return (

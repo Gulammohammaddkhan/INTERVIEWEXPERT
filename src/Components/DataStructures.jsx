@@ -1,5 +1,5 @@
 import React from "react";
-import xImg from "../assets/Images/X-O-img.webp";
+import xImg from "../../public/X-O-img.webp";
 import CustomButton from "./CustomButton";
 
 // function DataStructures() {

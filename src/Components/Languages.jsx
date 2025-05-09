@@ -8,11 +8,11 @@ import { VscRobot } from "react-icons/vsc";
 import { GiBrain } from "react-icons/gi";
 import { IoLogoWindows } from "react-icons/io5";
 import { BsEmojiSunglasses } from "react-icons/bs";
-import rat from "../assets/Images/Rat.png";
-import python from "../assets/Images/Python.png";
-import jspic from "../assets/Images/jsPic.png";
+import rat from "../../public/Rat.png";
+import python from "../../public/Python.png";
+import jspic from "../../public/jsPic.png";
 import CustomButton from "./CustomButton";
-import cPlus from "../assets/Images/Cplus.png";
+import cPlus from "../../public/Cplus.png";
 
 // function Languages() {
 //   return (

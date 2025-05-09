@@ -1,16 +1,16 @@
 import React from "react";
-import amazon from "../assets/Images/Amazon.png";
-import bloomberg from "../assets/Images/Bloomberg.png";
-import twoSigma from "../assets/Images/Two sigma.png";
-import fb from "../assets/Images/Facebook.png";
-import google from "../assets/Images/Google.png";
-import microsoft from "../assets/Images/Microsoft.png";
-import blackrock from "../assets/Images/BlackRock.png";
-import zillow from "../assets/Images/Zillow.png";
-import consensys from "../assets/Images/consensys.png";
-import universal from "../assets/Images/NBC-Universal.png";
-import morgan from "../assets/Images/Morgan-Stanley.png";
-import simon from "../assets/Images/Simon.png";
+import amazon from "../../public/Amazon.png";
+import bloomberg from "../../public/Bloomberg.png";
+import twoSigma from "../../public/Two sigma.png";
+import fb from "../../public/Facebook.png";
+import google from "../../public/Google.png";
+import microsoft from "../../public/Microsoft.png";
+import blackrock from "../../public/BlackRock.png";
+import zillow from "../../public/Zillow.png";
+import consensys from "../../public/consensys.png";
+import universal from "../../public/NBC-Universal.png";
+import morgan from "../../public/Morgan-Stanley.png";
+import simon from "../../public/Simon.png";
 import AutoSlider from "./AutoSlider";
 
 const companyImages = [amazon, bloomberg, twoSigma, fb, google, microsoft];
