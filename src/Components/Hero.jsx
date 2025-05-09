@@ -1,6 +1,6 @@
 import React from "react";
 import CustomButton from "./CustomButton";
-import { Link, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import hero from "../assets/Images/newer-logo.png";
 import products from "../assets/Images/hello.avif";
 import questions from "../assets/Images/computer.avif";
