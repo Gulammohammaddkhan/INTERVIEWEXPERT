@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Card from "./Card";
 import Footer from "./Footer";
 import BeforeFooter from "./BeforeFooter";
@@ -11,7 +11,10 @@ import { TbBrandJavascript } from "react-icons/tb";
 import { ImHtmlFive2 } from "react-icons/im";
 import { RiListCheck3 } from "react-icons/ri";
 
-function Products() {
+function Products({ productRef }) {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
   const productData = [
     {
       key: 1,
@@ -93,7 +96,7 @@ function Products() {
           <Card item={item} key={i} />
         ))}
       </div>
-      <FrontendQuestions />
+      <FrontendQuestions productRef={productRef} />
       <BeforeFooter />
       <Footer />
     </div>

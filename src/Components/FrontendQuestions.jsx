@@ -1,9 +1,12 @@
 import React from "react";
 import CustomButton from "./CustomButton";
 
-function FrontendQuestions() {
+function FrontendQuestions({ productRef }) {
   return (
-    <div className="flex flex-col items-center px-10 py-20 gap-7 md:flex-row">
+    <div
+      className="flex flex-col items-center px-10 py-20 gap-7 md:flex-row"
+      ref={productRef}
+    >
       <div className="flex-1 mb-6 md:mb-0 md:mr-6">
         <h2 className="text-[#02213d] text-4xl pb-6">
           Frontend Coding Questions.

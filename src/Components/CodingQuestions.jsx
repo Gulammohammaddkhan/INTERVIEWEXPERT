@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-const FrontendPrograms = () => {
+const FrontendPrograms = ({ questionRef }) => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
   let [getData, setGetData] = useState("");
   useEffect(() => {
     fetch("https://optimist-dev-backend.onrender.com/api/interview-questions")
@@ -11,7 +14,7 @@ const FrontendPrograms = () => {
       });
   }, []);
   return (
-    <div className="p-4">
+    <div className="p-4" ref={questionRef}>
       <h2 className="pl-4 mb-4 text-2xl font-bold">Javascript Questions</h2>
       <div className="grid grid-cols-1 gap-2 p-4 sm:grid-cols-2 lg:grid-cols-3 ">
         {getData?.questions?.map((obj, id) => (

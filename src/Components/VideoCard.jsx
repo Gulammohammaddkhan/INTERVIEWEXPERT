@@ -126,7 +126,7 @@ function Videos() {
       {/* Video Section */}
       <div className="w-full max-w-xl mx-auto mt-10 flex justify-center items-center">
         <video controls autoPlay className="w-full rounded-lg shadow-lg">
-          <source src="https://youtu.be/eGE-tFalwpA?si=JuZ69c8NX1vxvwo5"></source>
+          <source src="https://videos.pexels.com/video-files/2278095/2278095-hd_1920_1080_30fps.mp4"></source>
         </video>
       </div>
     </div>

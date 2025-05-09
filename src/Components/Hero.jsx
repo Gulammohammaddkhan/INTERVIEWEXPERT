@@ -5,7 +5,7 @@ import hero from "../../public/newer-logo.png";
 import questions from "../../public/computer.avif";
 import products from "../../public/hello.avif";
 
-function Hero() {
+function Hero({ goToRefs }) {
   const location = useLocation();
   console.log(location.pathname);
 
@@ -36,6 +36,7 @@ function Hero() {
         {/* Button */}
         <div className="mt-6">
           <CustomButton
+            onClick={goToRefs}
             img={
               <svg
                 height={25}

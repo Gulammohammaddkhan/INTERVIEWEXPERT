@@ -66,7 +66,8 @@ function CustomButton({
           cursor: cursor,
           margin: margin,
           style: style,
-        }}>
+        }}
+      >
         {img}
         {text}
       </Link>

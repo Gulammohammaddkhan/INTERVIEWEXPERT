@@ -27,11 +27,6 @@ function BeforeFooter() {
           With InterviewExpert , preparing for interviews helps you land
           interviews.
         </p>
-        <CustomButton
-          text={"Learn More"}
-          bgColor={"#626fe3"}
-          padding={"15px 30px"}
-        />
       </div>
 
       {/* Image Section */}
