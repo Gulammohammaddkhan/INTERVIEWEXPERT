@@ -25,7 +25,7 @@ const SingleQuestion = () => {
       <div className="flex items-center justify-center">
         <div key={getData?._id} className="w-full max-w-3xl px-4 py-3">
           <div>
-            <div className="flex items-end gap-5">
+            <div className="flex  flex-col  items-start gap-5">
               <CustomButton
                 onClick={onclickhandler}
                 padding={"10px 25px"}

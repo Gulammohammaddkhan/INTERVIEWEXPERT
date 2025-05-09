@@ -102,7 +102,7 @@ function Questions() {
           200 Questions Spanning 15 Categories.
         </h2>
         <div className="flex items-center justify-center ">
-          <p className="text-center w-full sm:w-[750px] pb-4 px-4">
+          <p className="text-center w-full sm:w-[80%] pb-4 px-4">
             If you want to ace the coding interviews, being well-versed in all
             common data structures and popular problem-solving methods is
             paramount. With 200 questions spanning 15 categories and 4

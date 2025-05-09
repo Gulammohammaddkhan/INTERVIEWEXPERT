@@ -11,13 +11,7 @@ function Hero({ goToRefs }) {
 
   return (
     <div className="relative flex items-center justify-center pr-0 md:flex-row md:justify-between md:pl-16">
-      {/* <div
-      className={`relative flex items-center pr-0 md:pl-16 ${
-        location.pathname === "/interview-preparation"
-          ? "justify-center"
-          : "md:flex-row md:justify-between"
-      }`}> */}
-      <div className="flex flex-col items-center justify-center pt-12 pb-12 text-center text-white md:pt-28 md:pb-24 md:items-start md:text-left">
+      <div className="flex flex-col items-center justify-center pt-12 pb-12 px-2 text-center text-white md:pt-28 md:pb-24 md:items-start md:text-left">
         <div>
           <h1 className="pb-6 text-3xl font-ubuntu md:text-5xl">
             {location.pathname === "/interview-preparation"
@@ -66,7 +60,7 @@ function Hero({ goToRefs }) {
         </div>
       </div>
       {/* Image */}
-      <div className="relative  w-full md:w-[50%] hidden md:block ">
+      <div className="relative  w-full md:w-[50%] hidden lg:block ">
         (
         <img
           src={

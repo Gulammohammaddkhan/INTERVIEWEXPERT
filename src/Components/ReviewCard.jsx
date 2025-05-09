@@ -3,7 +3,7 @@ import React from "react";
 function ReviewCard({ data }) {
   return (
     <div className="">
-      <div className=" flex flex-col justify-center items-center w-[325px] h-[325px] bg-white relative rounded-sm border-t-4 border-t-[#626fe3] shadow-md ">
+      <div className=" flex flex-col justify-center items-center max-w-[325px] h-[325px] bg-white relative rounded-sm border-t-4 border-t-[#626fe3] shadow-md min-w-[250px]">
         <img
           src={data.avatar}
           className="rounded-full w-[60px] absolute top-[-30px] left-[40%] "

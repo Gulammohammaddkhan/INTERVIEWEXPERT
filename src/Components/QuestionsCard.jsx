@@ -2,7 +2,7 @@ import React from "react";
 
 function QuestionsCard({ data }) {
   return (
-    <div className="bg-[#15304a] w-[300px] h-[140px] flex  justify-center items-center  ">
+    <div className="bg-[#15304a] max-w-[300px] min-w-[250px] h-[140px] flex  justify-center items-center  ">
       {/* <div className="bg-[#15304a] grid grid-cols-3 ">
         {questionData.map((item, index) => {
           return (

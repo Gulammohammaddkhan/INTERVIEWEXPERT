@@ -6,24 +6,28 @@ function BeforeFooter() {
     <div className="bg-[#02213d] relative text-white flex flex-col md:flex-row py-20 gap-10 justify-between pl-5">
       {/* Text Section */}
       <div className="lg:pl-32 md:w-1/2">
-        <h2 className="pb-6 text-3xl font-semibold">
+        <h2 className="pb-6 text-xl sm:text-2xl md:text-3xl font-semibold">
           A Better Way To Land Interviews.
         </h2>
-        <p className="pb-6 text-lg">
+        <p className="pb-6 text-sm sm:text-base md:text-lg">
           Earn the InterviewExpert Certificate. Get referred to tech companies.
         </p>
-        <p>No more InMail messages that get ignored.</p>
-        <p className="pb-6 text-lg">No more cold emails that go nowhere.</p>
-        <p className="pb-6 text-lg">
+        <p className="pb-6 text-sm sm:text-base md:text-lg">
+          No more InMail messages that get ignored.
+        </p>
+        <p className="pb-6 text-sm sm:text-base md:text-lg">
+          No more cold emails that go nowhere.
+        </p>
+        <p className="pb-6 text-sm sm:text-base md:text-lg">
           No more job applications that get no attention.
         </p>
-        <p className="pb-6 text-lg">
+        <p className="pb-6 text-sm sm:text-base md:text-lg">
           No more referral programs that don't work.
         </p>
-        <p className="pb-6 text-lg">
+        <p className="pb-6 text-sm sm:text-base md:text-lg">
           No more recruiting agencies that cost a fortune.
         </p>
-        <p className="pb-6 text-lg">
+        <p className="pb-6 text-sm sm:text-base md:text-lg">
           With InterviewExpert , preparing for interviews helps you land
           interviews.
         </p>
