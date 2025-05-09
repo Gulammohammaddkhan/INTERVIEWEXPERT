@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../Components/Header";
 import Hero from "../Components/Hero";
 import About from "../Components/About";
@@ -16,6 +16,9 @@ import ContentWrapper from "../Components/ContentWrapper";
 import Languages from "../Components/Languages";
 
 const Home = () => {
+useEffect(() => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}, []);
   return (
     <>
       {/* <Hero /> */}
