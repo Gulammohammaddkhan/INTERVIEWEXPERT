@@ -2,8 +2,8 @@ import React from "react";
 import CustomButton from "./CustomButton";
 import { useLocation } from "react-router-dom";
 import hero from "../assets/Images/newer-logo.png";
-import products from "../assets/Images/hello.avif";
 import questions from "../assets/Images/computer.avif";
+import products from "../assets/Images/hello.avif";
 
 function Hero() {
   const location = useLocation();
